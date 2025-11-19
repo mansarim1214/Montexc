@@ -40,7 +40,10 @@ function Navbar() {
             scrolled ? "text-xl" : "text-2xl"
           }`}
         >
-          <a href="/">Montexc</a>
+         <a href="/" className="logo md:text-[34px] text-[28px] font-semibold text-black">
+  Monte<span className="text-[#0941f6]">x</span>c
+</a>
+
         </div>
 
         {/* Desktop Menu */}
